@@ -67,7 +67,7 @@ function displayClaims(claims) {
       `Product: ${claim.productCode} | ` +
       `Description: ${claim.description} | `;
 
-    claimList.appendChild("listItem");
+    claimList.appendChild(listItem);
   });
 
   if (claims.length === 0) {
