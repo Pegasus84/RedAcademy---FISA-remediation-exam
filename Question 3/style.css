@@ -1,0 +1,31 @@
+body {
+  font-family: arial, sans-serif;
+  margin: 30px;
+  background-color: #f4f4f4;
+}
+
+h1,
+h2 {
+  color: #333;
+}
+
+label {
+  display: inline-block;
+  margin: 10px 5px 10px 0;
+}
+
+select {
+  padding: 8px;
+  margin-right: 15px;
+}
+
+#claimList {
+  padding-left: 25px;
+}
+
+#claimList li {
+  background-color: white;
+  margin-bottom: 10px;
+  padding: 12px;
+  border-radius: 5px;
+}
