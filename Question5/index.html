@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Question 5</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Claim Processing</h1>
+
+    <form id="claimForm">
+      <label>Claimant Name:</label>
+      <input type="text" id="cName" required />
+
+      <label id="email">Email:</label>
+      <input type="email" id="email" required />
+
+      <label id="description">Claim Description:</label>
+      <textarea id="description" required></textarea>
+
+      <button type="submit">Process Claim</button>
+    </form>
+
+    <p id="result"></p>
+
+    <p id="status"></p>
+
+    <script src="script.js"></script>
+  </body>
+</html>
